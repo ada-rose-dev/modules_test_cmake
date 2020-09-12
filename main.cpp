@@ -2,9 +2,11 @@
 //
 
 import M;
+import N;
 
 int main()
 {
 	foo();
+	bar();
 	return 0;
 }

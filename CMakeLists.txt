@@ -54,7 +54,7 @@ message("===> moduleFiles: ${moduleFiles}")
     # -discard-value-names -main-file-name main.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=none -fmath-errno 
     # -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -v
 ## include dirs:
-    #  -resource-dir "C:\\Program Files\\LLVM\\lib\\clang\\10.0.0" -internal-isystem "C:\\Program Files\\LLVM\\lib\\clang\\10.0.0\\include"
+    # -resource-dir "C:\\Program Files\\LLVM\\lib\\clang\\10.0.0" -internal-isystem "C:\\Program Files\\LLVM\\lib\\clang\\10.0.0\\include"
     # -internal-isystem "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.27.29110\\include"
     # -internal-isystem "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.27.29110\\atlmfc\\include"
     # -internal-isystem "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt"
@@ -69,10 +69,6 @@ message("===> moduleFiles: ${moduleFiles}")
 # -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -faddrsig
 # -o "C:/Users/Phoenix Mandala/source/repos/modules_test_cmake/build/main.o"
 # -x c++ "C:/Users/Phoenix Mandala/source/repos/modules_test_cmake/main.cpp"
-
-
-# tags i can't place:
-# -cc1 
 
 #compare to:
 #clang++ -std=c++2a -fmodules-ts -x c++ -o main.o -fmodule-file=module.pcm -c main.cpp

@@ -1,0 +1,6 @@
+hi
+
+got the makefile to work with multiple modules
+next is to test getting modules from multiple folders (which should be pretty easy)
+then integrating to CMake
+then integrating sundile :)

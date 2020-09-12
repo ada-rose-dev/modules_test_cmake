@@ -1,5 +1,8 @@
 {
     "cmake.configureSettings": {
         //"CMAKE_VERBOSE_MAKEFILE": "ON"
+    },
+    "files.associations": {
+        "iostream": "cpp"
     }
 }

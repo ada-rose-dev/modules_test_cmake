@@ -1,7 +1,0 @@
-﻿module;
-#include <iostream>
-export module M;
-
-export void foo() {
-	std::cout << "Hello, modules!\n";
-}
